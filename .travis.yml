@@ -15,6 +15,6 @@ install:
    - sudo apt-get install -qq qt53quickcontrols  qt53declarative qt53script qt53graphicaleffects
    
 script:
-   - qmake -v
-   - qmake
+   - qmake-qt5 -v
+   - qmake-qt5
    - make
